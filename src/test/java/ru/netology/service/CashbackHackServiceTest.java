@@ -30,6 +30,10 @@ public class CashbackHackServiceTest {
         assertEquals(expected, actual);
     }
 
+}
+
+class CashbackHackServiceTestJUnit5 {
+
     @org.junit.jupiter.api.Test
     public void amountLess2000() {
         CashbackHackService service = new CashbackHackService();
